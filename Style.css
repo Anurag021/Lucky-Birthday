@@ -1,16 +1,54 @@
-.container{
 
+.root{
+    --primary-color: #16A34A;
+    --secondary-color:#A5F3FC; 
+}
+.container{
+    /* background-color: #16A34A; */
+    background-color: #16A34A;
+    color: #3d0101;
+    /* text-align: center; */
+    font-family: cursive;
+    /* margin-left: 500px; */
+    margin:auto;
+    width: 50%;
+    font-weight:bold;
+    font-size: large;
+}
+
+
+#date-Of-Birth{
     
 }
-.images{
-    width: 50px;
-    height: 50px;
+input,label {
+    display: block;
+    padding: 0.5rem;
+}
+
+input{
+    
+}
+
+button{
+   padding:0.5rem;
+   margin-top:0.5rem;
+   border: 3px solid black;
+   background-color: rgba(3, 46, 29, 0.781);
+   color:wheat;
+   margin-left: 60px;
 }
 
 li{
     list-style: none;
     display: inline;
 }
-#date-Of-Birth{
-    
+.images{
+    width: 50px;
+    height: 50px;
+}
+
+#result{
+    font-family:fantasy;
+    color: rgba(27, 4, 4, 0.884);
+    font-size: x-large;
 }
